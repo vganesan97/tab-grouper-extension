@@ -27,7 +27,8 @@ async function makeRequest(numOfCategories, urls) {
     };
 
     const response = await fetch(
-      'https://mppu5qaklehpbedy466yqxwu340qhekt.lambda-url.us-east-2.on.aws/',
+        // put aws lambda link here
+      "",
       {
         method: 'POST',
         headers: headers,
